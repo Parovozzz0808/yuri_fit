@@ -1,0 +1,42 @@
+.activity_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("../../assets/images/activity_bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .activity_container h3 {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    font-size: 6.5rem;
+    color: #fff;
+  }
+  .activity_container h3 span {
+    color: #18A0FB;
+  }
+  .activity_container .activity_box_img {
+    max-width: 69%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .activity_container .activity_box_img .image {
+    padding-bottom: 5rem;
+  }
+  .activity_container .activity_box_img .image:not(:nth-child(4n)) {
+    padding-right: 5rem;
+  }

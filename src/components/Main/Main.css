@@ -1,0 +1,31 @@
+.main_container {
+    max-width: 1920px;
+    background-image: url('../../assets/images/main_bg_1.png');
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+.main_container .box_content {
+    min-height: 78vh;
+    max-width: 43%;
+    margin-left: 6%;
+    padding-top: 13rem;
+}
+.main_container .box_content h1 {
+    color: #fff;
+    margin-bottom: 7rem;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.6rem;
+}
+.main_container .box_content h1 span {
+    color: #18A0FB;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.6rem;
+}
+.main_container .box_content .btn {
+    margin-right: 3rem;
+}

@@ -1,0 +1,70 @@
+.header {
+    padding: 0 6%;
+    background: #000;
+}
+
+.header .header_top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2.6rem 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .header .header_top h3 {
+    margin-left: 44%;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .header .header_top a {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .header .header_top a:hover {
+    color: #18A0FB;
+  }
+  
+  .header_bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 3rem 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .header_bottom a {
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .header_bottom a span {
+    color: #18A0FB;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+  
+  #menu_btn {
+    display: none;
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+  }

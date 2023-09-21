@@ -1,0 +1,88 @@
+.footer {
+    max-width: 1920px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .footer_container {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .footer_top {
+    padding-bottom: 4rem;
+  }
+  .footer .footer_top .share {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer .footer_top .share a {
+    height: 3rem;
+    width: 3rem;
+    font-size: 3rem;
+    line-height: 1;
+    color: #18A0FB;
+  }
+  .footer .footer_top .share a:hover {
+    color: #fff;
+  }
+  .footer .footer_top .share a:not(:last-child) {
+    margin-right: 2rem;
+  }
+  .footer .footer_bottom {
+    width: 100%;
+    padding-top: 6rem;
+    margin-bottom: 13rem;
+    border-top: 1px solid #18A0FB;
+  }
+  .footer .footer_bottom .navbar {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer .footer_bottom .navbar a:not(.logo) {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+  .footer .footer_bottom .navbar a:not(.logo):hover {
+    color: #18A0FB;
+  }
+  .footer .footer_bottom .navbar .logo {
+    margin-left: 24rem;
+    margin-right: 10rem;
+    color: #fff;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1;
+  }
+  .footer .footer_bottom .navbar .logo span {
+    color: #18A0FB;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1;
+  }

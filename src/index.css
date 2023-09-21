@@ -1,0 +1,62 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+  
+html {
+font-size: 75%;
+scroll-behavior: smooth;
+scroll-padding-top: 5rem;
+overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+background: #8B8B8B;
+}
+
+html::-webkit-scrollbar-thumb {
+background: #18A0FB;
+}
+
+body {
+background: #191A1E;
+}
+
+.btn {
+display: inline-block;
+padding: 2.3rem 3.3rem;
+border-radius: 10px;
+background-color: #18A0FB;
+color: #fff;
+-ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+font-size: 1.7rem;
+}
+
+.btn:hover {
+-webkit-transform: scale(1.15);
+        transform: scale(1.15);
+}
+
+.btn_dark {
+border: 1px solid #fff;
+background-color: transparent;
+}
+
+.container {
+max-width: 1920px;
+margin: 0 auto;
+}

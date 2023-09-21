@@ -1,0 +1,42 @@
+.navbar a {
+    position: relative;
+    padding-left: 2rem;
+    font-size: 2rem;
+  }
+
+.navbar a:hover {
+    color: #18A0FB;
+  }
+
+.navbar a:hover span {
+    color: #18A0FB;
+  }
+
+.navbar a span {
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+.navbar a .programm_list {
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 230%;
+    left: 0;
+    right: 0;
+    background-color: #000;
+  }
+
+.navbar a .programm_list li {
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+  }
+
+.navbar a .programm_list li:hover {
+    color: #18A0FB;
+  }
+
+.navbar a:not(:last-child) {
+    padding-right: 3rem;
+  }
