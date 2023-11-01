@@ -49,3 +49,16 @@
   .video .swiper_video .swiper-button-prev {
     color: #18A0FB;
   }
+
+  @media (max-width: 1024px) {
+    .swiper_video_container {
+      width: 94%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .video .swiper_video .swiper_video_container .slide {
+      margin-left: 7rem;
+      max-width: 41%;
+    }
+  }

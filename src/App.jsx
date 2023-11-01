@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import './index.css';
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Benefits from "./components/Benefits/Benefits";

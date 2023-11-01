@@ -6,8 +6,8 @@
     background-repeat: no-repeat;
 }
 .main_container .box_content {
-    min-height: 78vh;
-    max-width: 43%;
+    min-height: 90vh;
+    max-width: 39%;
     margin-left: 6%;
     padding-top: 13rem;
 }
@@ -28,4 +28,10 @@
 }
 .main_container .box_content .btn {
     margin-right: 3rem;
+}
+
+@media (max-width: 768px) {
+    .main_container .box_content {
+        max-width: 52%;
+    } 
 }

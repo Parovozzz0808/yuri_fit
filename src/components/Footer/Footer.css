@@ -63,6 +63,11 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+
+  .footer .footer_bottom .navbar a {
+    padding-left: 0;
+  }
+
   .footer .footer_bottom .navbar a:not(.logo) {
     color: #fff;
     font-size: 2rem;
@@ -86,3 +91,10 @@
     font-weight: 600;
     line-height: 1;
   }
+
+@media (max-width: 1024px) {
+  .footer .footer_bottom .navbar .logo {
+    margin-left: 19rem;
+    margin-right: 6rem;
+  }
+}  
