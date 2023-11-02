@@ -13,31 +13,31 @@ const icon_8 = new URL ('../../assets/icons/activity_icon_8.png',import.meta.url
 const Activity = () => {
   return (
     <div className='activity'>
-        <div class='activity_container'>
+        <div className='activity_container'>
             <h3>Виды ежедневной <span>активности</span></h3>
-            <div class='activity_box_img'>
-                <div class="image">
+            <div className='activity_box_img'>
+                <div className="image">
                     <img src={icon_1} alt="/"></img>
                 </div>
-                <div class="image">
+                <div className="image">
                     <img src={icon_2} alt="/"></img>
                 </div>
-                <div class="image">
+                <div className="image">
                     <img src={icon_3} alt="/"></img>
                 </div>
-                <div class="image">
+                <div className="image">
                     <img src={icon_4} alt="/"></img>
                 </div>
-                <div class="image">
+                <div className="image">
                     <img src={icon_5} alt="/"></img>
                 </div>
-                <div class="image">
+                <div className="image">
                     <img src={icon_6} alt="/"></img>
                 </div>
-                <div class="image">
+                <div className="image">
                     <img src={icon_7} alt="/"></img>
                 </div>
-                <div class="image">
+                <div className="image">
                     <img src={icon_8} alt="/"></img>
                 </div>
             </div>

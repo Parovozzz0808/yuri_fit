@@ -6,7 +6,7 @@ const benefitsImg = new URL('../../assets/images/benefits_img.png',import.meta.u
 const Benefits = () => {
   return (
     <div className='benefits'>
-      <div class="benefits_container">
+      <div className="benefits_container">
 
         <h3><span>Преимущества</span> работы над собой</h3>
 
