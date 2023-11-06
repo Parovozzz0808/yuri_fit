@@ -6,6 +6,7 @@
     display: block;
     box-sizing: border-box;
     max-width: 85%;
+    margin: 0 auto;
 
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -22,10 +23,10 @@
 .slick-list
 {
     position: relative;
-    max-width: 100%;
+
     display: block;
     overflow: hidden;
-
+    
     margin: 0;
     padding: 0;
 }
@@ -90,6 +91,7 @@
 .slick-slide img
 {
     display: block;
+    max-width: 90%;
     margin: 0 auto;
 }
 .slick-slide.slick-loading img

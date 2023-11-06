@@ -92,6 +92,24 @@
     line-height: 1;
   }
 
+@media (max-width: 1600px) {
+  .footer .footer_bottom .navbar a:not(:last-child) {
+    padding-right: 1rem;
+  }
+  
+  .footer .footer_bottom .navbar .logo {
+    margin-left: 22rem;
+    margin-right: 9rem;
+  }
+}
+
+@media (max-width: 1520px) { 
+  .footer .footer_bottom .navbar .logo {
+    margin-left: 18rem;
+    margin-right: 5rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .footer .footer_bottom .navbar .logo {
     margin-left: 19rem;

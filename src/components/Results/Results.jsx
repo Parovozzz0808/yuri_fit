@@ -1,7 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
-import './slick-theme.css';
-import './slick.css';
+import './Results.css';
+import '../Slider/slick-theme.css';
+import '../Slider/slick.css';
 
 const img_1 = new URL ('../../assets/images/results_1.png', import.meta.url);
 const img_2 = new URL ('../../assets/images/results_2.png', import.meta.url);
@@ -9,7 +10,7 @@ const img_2 = new URL ('../../assets/images/results_2.png', import.meta.url);
 
 function Results() {
     var settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
