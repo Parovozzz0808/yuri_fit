@@ -91,3 +91,15 @@
       padding-right: 0rem;
     }
   }
+
+  @media (max-width: 500px) {
+    .activity_container h3 {
+      font-size: 4.5rem;
+    }
+  }
+
+  @media (max-width: 350px) {
+    .activity_container h3 {
+      font-size: 4rem;
+    }
+  }

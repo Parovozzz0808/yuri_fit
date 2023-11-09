@@ -40,6 +40,7 @@
     width: 3rem;
     font-size: 3rem;
     line-height: 1;
+    transition: linear .2s;
     color: #18A0FB;
   }
   .footer .footer_top .share a:hover {
@@ -116,3 +117,35 @@
     margin-right: 6rem;
   }
 }  
+
+@media (max-width: 800px) {
+  .footer .footer_bottom .navbar .logo {
+    margin-left: 15rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .footer .footer_bottom {
+    margin-bottom: 5rem;
+  }
+
+  .footer .footer_bottom .navbar {
+    flex-direction: column;
+  }
+
+  .footer .footer_bottom .navbar a {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  .footer .footer_bottom .navbar a:not(:last-child) {
+    padding-right: 0;
+  }
+
+  .footer .footer_bottom .navbar .logo {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    order: -1;
+  }
+}

@@ -28,6 +28,7 @@
     overflow: hidden;
     
     margin: 0;
+    margin-left: 2rem;
     padding: 0;
 }
 .slick-list:focus
@@ -80,7 +81,7 @@
 {
     display: none;
     float: left;
-
+    min-width: 1px;
     height: 100%;
     min-height: 1px;
 }
@@ -120,4 +121,14 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+@media (max-width: 500px) {
+    .slick-slider {
+        max-width: 80%;
+    }
+
+    .slick-list {
+        margin-left: 0;
+    }
 }

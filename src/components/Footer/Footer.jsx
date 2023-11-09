@@ -12,10 +12,10 @@ function Footer() {
             <div className="footer_top">
 
                 <div className="share">
-                    <a href="/" class='telegram'> <LiaTelegramPlane /> </a>
-                    <a href="/" class='instagram'> <AiOutlineInstagram /> </a>
-                    <a href="/" class='facebook'> <AiOutlineFacebook /> </a>
-                    <a href="/" class='vk'> <SlSocialVkontakte /> </a>
+                    <a href="/" className='telegram'> <LiaTelegramPlane /> </a>
+                    <a href="/" className='instagram'> <AiOutlineInstagram /> </a>
+                    <a href="/" className='facebook'> <AiOutlineFacebook /> </a>
+                    <a href="/" className='vk'> <SlSocialVkontakte /> </a>
                 </div>
 
             </div>

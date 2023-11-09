@@ -1,6 +1,6 @@
 .main_container {
     max-width: 1920px;
-    background-image: url('../../assets/images/main_bg_1.png');
+    background-image: url('../../assets/images/main_bg_01.png');
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat;
@@ -11,7 +11,29 @@
     margin-left: 6%;
     padding-top: 13rem;
 }
-.main_container .box_content h1 {
+
+.main_container .box_content_mobile {
+    display: none;
+}
+
+.main_container .box_content_top {
+    min-height: 90vh;
+    max-width: 39%;
+    margin-left: 6%;
+    padding-top: 13rem;
+}
+
+.main_container .box_content_bottom {
+    max-width: 500px;
+    min-height: 50vh;
+    background-image: url('../../assets/images/main_bg_01.png');
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+
+.main_container .box_content h1,
+.main_container .box_content_top h1 {
     color: #fff;
     margin-bottom: 7rem;
     font-size: 3rem;
@@ -19,14 +41,16 @@
     font-weight: 400;
     line-height: 3.6rem;
 }
-.main_container .box_content h1 span {
+.main_container .box_content h1 span, 
+.main_container .box_content_top h1 span {
     color: #18A0FB;
     font-size: 3rem;
     font-style: normal;
     font-weight: 400;
     line-height: 3.6rem;
 }
-.main_container .box_content .btn {
+.main_container .box_content .btn,
+.main_container .box_content_top .btn {
     margin-right: 3rem;
 }
 
@@ -34,4 +58,26 @@
     .main_container .box_content {
         max-width: 52%;
     } 
+}
+
+@media (max-width: 500px) {
+    .main_container {
+        background-image: none;
+    }
+    
+    .main_container .box_content_mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_content {
+        display: none;
+    }
+
+    .main_container .box_content_top {
+        min-height: 40vh;
+        max-width: 71%;
+        margin: 0 auto;
+        padding-top: 8rem;
+    }
 }

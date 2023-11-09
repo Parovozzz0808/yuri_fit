@@ -14,7 +14,19 @@ function Video() {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScrol: 3
+        slidesToScrol: 3,
+        responsive: [
+            {
+                breakpoint: 500,
+                settings: {
+                    dots: false,
+                    infinite: true,
+                    speed: 500,
+                    slidesToShow: 2,
+                    slidesToScrol: 2
+                }
+            }
+        ]
     };
     return (
         <div className='video'>

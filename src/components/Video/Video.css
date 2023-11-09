@@ -7,7 +7,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     max-width: 1920px;
-    height: 80vh;
+    height: 90vh;
     padding: 0 4rem;
     margin-bottom: 7rem;
     background-image: url("../../assets/images/video_bg.png");
@@ -46,7 +46,23 @@
       margin-left: 7rem;
       max-width: 41%;
     }
+}
+
+@media (max-width: 500px) {
+  .video h3 {
+    font-size: 4.5rem;
   }
+}
+
+@media (max-width: 350px) {
+  .video {
+    height: 50vh;
+  }
+  
+  .video h3 {
+    font-size: 4rem;
+  }
+}
 
   /* Slider */
 

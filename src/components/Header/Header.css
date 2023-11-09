@@ -153,6 +153,10 @@
   .navbar .dropdown a span {
     display: none;
   }
+
+  .navbar .dropdown:hover .dropdown_content {
+    display: none;
+  }
 }
 
 

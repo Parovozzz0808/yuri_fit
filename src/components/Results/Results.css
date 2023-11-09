@@ -16,4 +16,15 @@
     font-size: 6.5rem;
     color: #fff;
   }
-  
+
+@media (max-width: 500px) {
+  .results h3 {
+      font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .results h3 {
+      font-size: 4rem;
+  }
+}

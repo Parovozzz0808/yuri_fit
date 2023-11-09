@@ -14,7 +14,19 @@ function Results() {
         infinite: true,
         speed: 500,
         slidesToShow: 2,
-        slidesToScrol: 2
+        slidesToScrol: 2,
+        responsive: [
+            {
+                breakpoint: 500,
+                settings: {
+                    dots: false,
+                    infinite: true,
+                    speed: 500,
+                    slidesToShow: 1,
+                    slidesToScrol: 1
+                }
+            }
+        ]
     };
     return (
         <div className='results'>

@@ -18,7 +18,7 @@
 }
 
 .about_container .about_text {
-    max-width: 42%;
+    max-width: 40%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;

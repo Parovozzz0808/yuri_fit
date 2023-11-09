@@ -44,3 +44,19 @@
         width: 60%;
     }      
 }
+
+@media (max-width: 500px) {
+    .benefits_container h3 {
+        font-size: 4.5rem;
+    }
+
+    .benefits_container img {
+        width: 90%;
+    } 
+}
+
+@media (max-width: 350px) {
+    .benefits_container h3 {
+        font-size: 3.5rem;
+    } 
+}

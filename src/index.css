@@ -73,8 +73,20 @@ body {
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     html {
       font-size: 40%;
+    }
+  }
+
+  @media (max-width: 640px) {
+    html {
+      font-size: 35%;
+    }
+  }  
+
+  @media (max-width: 500px) {
+    html {
+      font-size: 30%;
     }
   }
