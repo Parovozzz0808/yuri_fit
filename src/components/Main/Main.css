@@ -54,6 +54,25 @@
     margin-right: 3rem;
 }
 
+.modal_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modal_form button {
+    padding: 1.5rem 2rem;
+}
+
+.modal_form_input {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    border-radius: 10px;
+    font-size: 1.7rem;
+}
+
 @media (max-width: 768px) {
     .main_container .box_content {
         max-width: 52%;
